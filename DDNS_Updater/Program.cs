@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Net.Http;
+using System.Text;
 
 namespace DDNS_Updater {
 
@@ -7,8 +7,13 @@ namespace DDNS_Updater {
 
         static void Main(string[] args) {
 
-            Console.WriteLine( HttpWebAccess.GetResponseText( SettingsMgr.Settings.Url ) );
-
+            try {
+                Console.WriteLine( HttpWebAccess.GetResponseText( SettingsMgr.Settings.Url ) );
+            }catch( Exception ex ) {
+                Console.OutputEncoding = Encoding.UTF8;
+                Console.Error.WriteLine( "例外が発生し処理が中断されました。" );
+                Console.Error.WriteLine( $"{ex.Message}" );
+            }
         }
 
     }

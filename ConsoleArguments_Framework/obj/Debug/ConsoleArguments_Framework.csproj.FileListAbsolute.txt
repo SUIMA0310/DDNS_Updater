@@ -1,0 +1,6 @@
+L:\Code\DDNS_Updater\ConsoleArguments_Framework\bin\Debug\ConsoleArguments_Framework.dll
+L:\Code\DDNS_Updater\ConsoleArguments_Framework\bin\Debug\ConsoleArguments_Framework.pdb
+L:\Code\DDNS_Updater\ConsoleArguments_Framework\obj\Debug\ConsoleArguments_Framework.csprojResolveAssemblyReference.cache
+L:\Code\DDNS_Updater\ConsoleArguments_Framework\obj\Debug\ConsoleArguments_Framework.csproj.CoreCompileInputs.cache
+L:\Code\DDNS_Updater\ConsoleArguments_Framework\obj\Debug\ConsoleArguments_Framework.dll
+L:\Code\DDNS_Updater\ConsoleArguments_Framework\obj\Debug\ConsoleArguments_Framework.pdb

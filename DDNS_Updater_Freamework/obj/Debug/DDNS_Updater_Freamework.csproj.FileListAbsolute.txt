@@ -1,0 +1,9 @@
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\bin\Debug\DDNS_Updater_Freamework.exe.config
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\bin\Debug\DDNS_Updater_Freamework.exe
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\bin\Debug\DDNS_Updater_Freamework.pdb
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\bin\Debug\ConsoleArguments_Framework.dll
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\bin\Debug\ConsoleArguments_Framework.pdb
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\obj\Debug\DDNS_Updater_Freamework.csprojResolveAssemblyReference.cache
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\obj\Debug\DDNS_Updater_Freamework.csproj.CoreCompileInputs.cache
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\obj\Debug\DDNS_Updater_Freamework.exe
+L:\Code\DDNS_Updater\DDNS_Updater_Freamework\obj\Debug\DDNS_Updater_Freamework.pdb

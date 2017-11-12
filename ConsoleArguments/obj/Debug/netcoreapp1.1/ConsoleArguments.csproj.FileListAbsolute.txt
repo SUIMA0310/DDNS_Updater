@@ -1,0 +1,8 @@
+L:\Code\DDNS_Updater\ConsoleArguments\bin\Debug\netcoreapp1.1\ConsoleArguments.deps.json
+L:\Code\DDNS_Updater\ConsoleArguments\bin\Debug\netcoreapp1.1\ConsoleArguments.dll
+L:\Code\DDNS_Updater\ConsoleArguments\bin\Debug\netcoreapp1.1\ConsoleArguments.pdb
+L:\Code\DDNS_Updater\ConsoleArguments\obj\Debug\netcoreapp1.1\ConsoleArguments.csprojResolveAssemblyReference.cache
+L:\Code\DDNS_Updater\ConsoleArguments\obj\Debug\netcoreapp1.1\ConsoleArguments.csproj.CoreCompileInputs.cache
+L:\Code\DDNS_Updater\ConsoleArguments\obj\Debug\netcoreapp1.1\ConsoleArguments.AssemblyInfo.cs
+L:\Code\DDNS_Updater\ConsoleArguments\obj\Debug\netcoreapp1.1\ConsoleArguments.dll
+L:\Code\DDNS_Updater\ConsoleArguments\obj\Debug\netcoreapp1.1\ConsoleArguments.pdb

@@ -8,3 +8,5 @@ L:\Code\DDNS_Updater\DDNS_Updater\obj\Debug\netcoreapp1.1\DDNS_Updater.csproj.Co
 L:\Code\DDNS_Updater\DDNS_Updater\obj\Debug\netcoreapp1.1\DDNS_Updater.AssemblyInfo.cs
 L:\Code\DDNS_Updater\DDNS_Updater\obj\Debug\netcoreapp1.1\DDNS_Updater.dll
 L:\Code\DDNS_Updater\DDNS_Updater\obj\Debug\netcoreapp1.1\DDNS_Updater.pdb
+L:\Code\DDNS_Updater\DDNS_Updater\bin\Debug\netcoreapp1.1\ConsoleArguments.dll
+L:\Code\DDNS_Updater\DDNS_Updater\bin\Debug\netcoreapp1.1\ConsoleArguments.pdb

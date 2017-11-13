@@ -1,15 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDNS_Updater", "DDNS_Updater\DDNS_Updater.csproj", "{FD92B3D7-A5B1-4A10-827E-1A4F1FD0F36B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDNS_Updater", "DDNS_Updater_Freamework\DDNS_Updater.csproj", "{90E6A31A-4428-49FF-A831-E1875CEA77BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleArguments", "ConsoleArguments\ConsoleArguments.csproj", "{8E7E672C-9BB5-46D3-896B-BB9DA0127178}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDNS_Updater_Freamework", "DDNS_Updater_Freamework\DDNS_Updater_Freamework.csproj", "{90E6A31A-4428-49FF-A831-E1875CEA77BF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleArguments_Framework", "ConsoleArguments_Framework\ConsoleArguments_Framework.csproj", "{D4905406-BDD6-41A0-B96E-F8154EBEB5CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleArguments", "ConsoleArguments_Framework\ConsoleArguments.csproj", "{D4905406-BDD6-41A0-B96E-F8154EBEB5CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD92B3D7-A5B1-4A10-827E-1A4F1FD0F36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD92B3D7-A5B1-4A10-827E-1A4F1FD0F36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD92B3D7-A5B1-4A10-827E-1A4F1FD0F36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD92B3D7-A5B1-4A10-827E-1A4F1FD0F36B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E7E672C-9BB5-46D3-896B-BB9DA0127178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E7E672C-9BB5-46D3-896B-BB9DA0127178}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E7E672C-9BB5-46D3-896B-BB9DA0127178}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E7E672C-9BB5-46D3-896B-BB9DA0127178}.Release|Any CPU.Build.0 = Release|Any CPU
 		{90E6A31A-4428-49FF-A831-E1875CEA77BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{90E6A31A-4428-49FF-A831-E1875CEA77BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E6A31A-4428-49FF-A831-E1875CEA77BF}.Release|Any CPU.ActiveCfg = Release|Any CPU

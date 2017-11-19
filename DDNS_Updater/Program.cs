@@ -36,6 +36,13 @@ namespace DDNS_Updater {
             }
         }
 
+        [MethodSwitch( "Settings", SwitchOptions.String )]
+        public static void SettingPath( string path ) {
+
+            SettingsMgr.Current.FileName = path;
+
+        }
+
         [MethodSwitch( "Template" )]
         public static void Template() {
 

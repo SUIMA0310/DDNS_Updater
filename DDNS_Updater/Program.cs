@@ -11,6 +11,9 @@ namespace DDNS_Updater {
         [PropSwitch( "ip" , Option = SwitchOptions.String)]
         public static string IpAddress { get; set; }
 
+        [PropSwitch( "url", Option = SwitchOptions.String )]
+        public static string Url { get; set; }
+
         static void Main(string[] args) {
 
             Console.OutputEncoding = Encoding.UTF8;
@@ -20,10 +23,10 @@ namespace DDNS_Updater {
 
             try {
 
-                string Url = SettingsMgr.Settings.Url
-                    .Replace( "{IpAddress}", IpAddress ?? HttpWebAccess.GetIpAddress() );
-                Console.WriteLine( Url );
-                Console.WriteLine( HttpWebAccess.GetResponseText( Url ) );
+                string url = Url ?? SettingsMgr.Settings.Url;
+                url = url.Replace( "{IpAddress}", IpAddress ?? HttpWebAccess.GetIpAddress() );
+                Console.WriteLine( url );
+                Console.WriteLine( HttpWebAccess.GetResponseText( url ) );
 
             }catch( Exception ex ) {
                 

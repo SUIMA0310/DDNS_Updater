@@ -8,7 +8,7 @@ namespace DDNS_Updater {
 
     public class Program {
 
-        [PropSwitch( "ip" )]
+        [PropSwitch( "ip" , Option = SwitchOptions.String)]
         public static string IpAddress { get; set; }
 
         static void Main(string[] args) {

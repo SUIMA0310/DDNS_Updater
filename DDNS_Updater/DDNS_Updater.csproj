@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cargs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Penguins-lab.Cargs.1.0.1\lib\net452\Cargs.dll</HintPath>
+      <HintPath>..\packages\Penguins-lab.Cargs.1.0.2\lib\net452\Cargs.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

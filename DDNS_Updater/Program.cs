@@ -1,47 +1,27 @@
 ﻿using System;
 using System.IO;
 using System.Text;
-using ConsoleArguments.Attributes;
+using Cargs;
+using Cargs.Attributes;
 
 namespace DDNS_Updater {
 
     public class Program {
 
-        [Argument( 't', "test")]
-        public bool Test { get; set; }
-
-        [Argument( 'a' )]
-        public string Test2 { get; set; }
-
-        [Argument( "Template" )]
-        public void Template() {
-
-            if( !File.Exists( SettingsMgr.Current.FileName ) ) {
-
-                SettingsMgr.Current.Save( new Settings() );
-                Console.Error.WriteLine( "設定ファイルを出力しました" );
-
-            } else {
-
-                Console.Error.WriteLine( "設定ファイルは既に存在しています" );
-
-            }
-
-            Environment.Exit(0);
-
-        }
+        [PropSwitch( "ip" )]
+        public static string IpAddress { get; set; }
 
         static void Main(string[] args) {
 
             Console.OutputEncoding = Encoding.UTF8;
 
             var prog = new Program();
-            ConsoleArguments.Analyzer.Analyze( prog, args );
+            Analyzer.Analyze( prog, args );
 
             try {
 
-                var Url = SettingsMgr.Settings.Url
-                    .Replace( "{IpAddress}", HttpWebAccess.GetIpAddress() );
+                string Url = SettingsMgr.Settings.Url
+                    .Replace( "{IpAddress}", IpAddress ?? HttpWebAccess.GetIpAddress() );
                 Console.WriteLine( Url );
                 Console.WriteLine( HttpWebAccess.GetResponseText( Url ) );
 
@@ -51,6 +31,34 @@ namespace DDNS_Updater {
                 Console.Error.WriteLine( $"{ex.Message}" );
 
             }
+        }
+
+        [MethodSwitch( "Template" )]
+        public static void Template() {
+
+            if ( File.Exists( SettingsMgr.Current.FileName ) ) {
+
+                Console.Error.WriteLine( "設定ファイルは既に存在しています" );
+                Console.Error.Write( "上書きしますか？ [y/n] : " );
+                if ( Console.ReadLine().ToLower() != "y" ) {
+                    return;
+                }
+
+            }
+
+            SettingsMgr.Current.Save( new Settings() );
+            Console.Error.WriteLine( "設定ファイルを出力しました" );
+
+            Environment.Exit( 0 );
+
+        }
+
+        [MethodSwitch( '?', "help" )]
+        public static void Help() {
+
+            Console.WriteLine( Resource.HelpText );
+            Environment.Exit( 0 );
+
         }
 
     }
